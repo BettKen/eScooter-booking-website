@@ -1,0 +1,92 @@
+.home{
+    background-color: #FFFCF9;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        
+
+            .wrapper {
+                width: 100%;
+                height: 100%;
+                padding-right: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1{
+                    font-size: 60px;
+                    font-weight: 600;
+                    margin-left: 70px;
+
+                    spaN{
+                        font-size: inherit;
+                        color: #EF8D21;
+                    }
+                }
+
+                h2{
+                    font-size: 35px;
+                    font-weight: 300;
+                    margin-left: 70px;
+                }
+
+                p {
+                    word-wrap: break-word;
+                    margin-left: 70px;
+                    font-weight:300;
+                    font-size: 25px;
+                }
+                
+                .button{
+                    display: flex;
+                    margin-left: 70px;
+                    padding: 40px 0px;
+
+                .btn:hover {
+                    background: #EF8D21;
+                    color: #FFFCF9;
+                }
+                    
+                    
+                .btn{
+                    font-weight:300;
+                    font-size: 20px;
+                    background-color: #FFFCF9;
+                    margin-left: 10px;
+                    padding: 10px 30px;
+                    border: 2px solid #EF8D21;
+                    border-radius: 30px;
+                    
+                }
+            }
+            }
+
+    }
+
+    .right{
+        flex: 0.5;
+        overflow: hidden;
+        
+        .logo{
+            padding: 57px 27px;
+        }
+
+        .imagecontainer{
+            width: 1000px;
+            height: 800px;
+            background-color: #eeaf6c;
+            border-radius: 50%;
+            margin-top: 20px;            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+
+            img{
+                height: 90%;
+                
+            }
+        }
+    }
+}
